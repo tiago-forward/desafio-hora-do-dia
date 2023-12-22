@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1190px;
+    height: 50vh;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+header .titulo {
+    text-align: center;
+    margin: 20px;
+    color: white;
+}
+
+.background-container {
+    background-color: #ffff;
+    margin: 0 auto;
+    max-width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.2);
+}
+
+.background-container .img-container {
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.background-container .img-container-madrugada {
+    background-image: url(../imagens/madrugada.jpg);
+}
+
+.background-container .img-container-manha {
+    background-image: url(../imagens/manha.jpg);
+}
+
+.background-container .img-container-tarde {
+    background-image: url(../imagens/tarde.jpg);
+}
+
+.background-container .img-container-noite {
+    background-image: url(../imagens/noite.jpg);
+}
+
+footer {
+    text-align: center;
+    margin: 20px;
+}
+
+footer .marca-registrada {
+    color: white;
+}
