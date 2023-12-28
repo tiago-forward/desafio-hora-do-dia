@@ -21,7 +21,7 @@ header .titulo {
     background-color: #ffff;
     margin: 0 auto;
     max-width: 500px;
-    height: 300px;
+    height: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,29 +31,12 @@ header .titulo {
 }
 
 .background-container .img-container {
-    background-repeat: no-repeat;
-    background-size: cover;
     display: flex;
     justify-content: center;
-    width: 200px;
-    height: 200px;
+}
+
+.background-container .img-container img {
     border-radius: 50%;
-}
-
-.background-container .img-container-madrugada {
-    background-image: url(../imagens/madrugada.jpg);
-}
-
-.background-container .img-container-manha {
-    background-image: url(../imagens/manha.jpg);
-}
-
-.background-container .img-container-tarde {
-    background-image: url(../imagens/tarde.jpg);
-}
-
-.background-container .img-container-noite {
-    background-image: url(../imagens/noite.jpg);
 }
 
 footer {
