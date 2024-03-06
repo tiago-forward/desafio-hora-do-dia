@@ -1,10 +1,12 @@
 // Buscando as IDs do documento
 const subtitulo = document.querySelector('p#subtitulo');
-const imagemDeFundo = document.querySelector('#imagem');
+const imagemDeFundo = document.querySelector('.imagem');
 
 const data = new Date()
 const hora = (data.getHours())
 const minuto = (data.getMinutes())
+
+imagemDeFundo.src = ''
 
 if (hora < 5) {
     subtitulo.innerHTML = (`Agora é ${hora}:${minuto} da madrugada.`)
